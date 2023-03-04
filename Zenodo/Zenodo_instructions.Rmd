@@ -2,21 +2,23 @@
 title: "Zenodo how-to instructions"
 subtitle: ''
 output:
-  html_notebook:
-    toc: yes
-    highlight: pygments
-  md_document:
-    variant: markdown_github
-  pdf_document:
-    toc: yes
   html_document:
+    pandoc_args: ["--output=index.html"]
     toc: yes
     toc_float: 
       collapsed: FALSE
     df_print: paged
+  md_document:
+    variant: markdown_github
+  pdf_document:
+    toc: yes
+  html_notebook:
+    toc: yes
+    highlight: pygments
   word_document:
     toc: yes
 ---
+
 
 ## About
 
@@ -70,16 +72,19 @@ This brief how-to will describe how to search for and upload data to Zenodo via 
 
 ## Uploading files
 
-Upload files i
+
+
 | | |
 | :------- | :----------- |
 |1. Click on <span class="label label-default ng-binding" style = "background-color: #5cb85c">New upload</span> |![](Images/upload-btn.png)
-|2. Follow the instructions on how to upload as described on Zenodo. Some fields are required such as upload and license type, and basic information. It is also possible to add other information such as contributors, alternative identifiers, references, funding, journal, etc. ![](Images/Upload_information.png)|![](Images/Upload_Page.png)|
-|3. The curator will receive your upload request, but he or she cannot access your file either. They will contact you in case of doubt.|
-You can see all your uploads by clicking on _Uploads_ On the top banner| ![](Images/your_upload.png)
+2. Upload the file by either drag and drop or by clicking on the <span class="label label-default ng-binding" style = "background-color: #357ebd">Choose files</span>, followed by <span class="label label-default ng-binding" style = "background-color: #5cb85c">Start upload</span>|![](Images/Upload_tagged.png)|
+3. Some fields are required such as upload and license type, and basic information. It is also possible to add additional information such as contributors, alternative identifiers, references, funding, journal, etc.| ![](Images/Upload_information.png)|
+|4. When you click on <span class="label label-default ng-binding" style = "background-color: #357ebd">Publish</span>, you will receive a warning recommending to use Zenodo Sandbox if you wish to just test upload, even when you are already in the sandbox. Just click on <span class="label label-default ng-binding" style = "background-color: #357ebd">I understand</span>. A DOI number will be automatically created.| ![](Images/warning.png)|
+|5. Your upload will be searchable on Zenodo, but not yet connected to the community Papillons (Test Papillons in this case). A curator will receive your upload request and accept or decline it. The rules for <span class="label label-default ng-binding" style = "background-color: #f0ad4e">Embargoed Access</span>, <span class="label label-default ng-binding" style = "background-color: #d9534f">Restricted Access</span>, and <span class="label label-default ng-binding" style = "background-color: #d9534f">Closed Access</span> also apply for curators. That means that they can only access open files. 
+5. You can find all your uploads (including drafts) by clicking on _Upload_ On the top banner| ![](Images/your_upload.png)
 
 
-## References
+## Useful links
 
 - [Make Your Code Citable Using GitHub and Zenodo: A How-to Guide](https://genr.eu/wp/cite/)
 
