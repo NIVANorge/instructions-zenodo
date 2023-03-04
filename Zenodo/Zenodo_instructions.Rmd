@@ -1,0 +1,86 @@
+---
+title: "Zenodo how-to instructions"
+subtitle: ''
+output:
+  html_notebook:
+    toc: yes
+    highlight: pygments
+  md_document:
+    variant: markdown_github
+  pdf_document:
+    toc: yes
+  html_document:
+    toc: yes
+    toc_float: 
+      collapsed: FALSE
+    df_print: paged
+  word_document:
+    toc: yes
+---
+
+## About
+
+_These are instructions for the test environment_ 
+
+[Zenodo](https://about.zenodo.org/) is an open-source repository for scientific outputs. Zenodo enables linking research outputs to datasets and funding information. All uploads get a Digital Object Identifier (DOI), and all data are stored at the European Organization for Nuclear Research  [(CERN)](https://www.home.cern/).
+
+This brief how-to will describe how to search for and upload data to Zenodo via its test environment. This environment is an exact copy of Zenodo, but here you will have the ability to test the tool before uploading data to the actual Papillons community (coming soon).
+
+## Sign up/ Log in to Zenodo
+
+|  |  |  
+| :------- | :----------- |
+|   1. Click on _Sign Up_ on the top-left corner of the site. If you already have an account you can skip to [the next step](#jump)     |![](Images/sign_up.png)
+|   2. You can sign up by creating an username and password, or using an [ORCID](https://orcid.org/) or [GitHub](https://github.com/) account.|![](Images/sign_up_method.png){width=500px}|
+|3.After signing up must open your e-mail inbox and confirm your e-mail by clicking on a link| ![](Images/mail_signup.png) ![](Images/email_confirm.png)|        
+
+
+<a name="jump"></a>
+
+## Find Papillons community
+
+
+| | |
+| :------- | :----------- |
+1. Go to [sandbox.zenodo.org](https://sandbox.zenodo.org/) and click on _Communities_ on the banner on the top of the page| ![](Images/communities.png)|
+
+| | |
+| :------- | :----------- |
+2. On the Communities search field search for _Papillons_ and press enter (note that you will not find the community by using the general search field)| ![](Images/search.png)|
+
+| | |
+| :------- | :----------- |
+3. You will find the _Test Papillons_ below. Click on _View_| ![](Images/view_test.png){width=400px}|
+
+| | |
+| :------- | :----------- |
+4. All uploaded files have tags identifying date uploaded, type of file, and type of access|![](Images/files.bmp){width=500px}
+
+**Description of tags:**
+
+- Uploaded date: <span class="label label-info ng-scope ng-binding" style="background-color:#6aa3d5">Month,DD,YYY(version)
+- Type of file: <span class="label label-default ng-binding" style = "background-color: #777">Dataset; Presentation; Poster, etc</span> 
+- Type of access:
+    - <span class="label label-default ng-binding" style = "background-color: #5cb85c">Open Access</span> 
+    - <span class="label label-default ng-binding" style = "background-color: #f0ad4e">Embargoed Access</span> - The file will be given open access after a date specified by the person who uploaded de file (this person can also edit the date. More later) 
+    - <span class="label label-default ng-binding" style = "background-color: #d9534f">Restricted Access</span> - Access can be requested. Conditions for access can be given by the publisher.
+    - <span class="label label-default ng-binding" style = "background-color: #d9534f">Closed Access</span> - Files are not publicly accessible.          
+
+
+
+## Uploading files
+
+Upload files i
+| | |
+| :------- | :----------- |
+|1. Click on <span class="label label-default ng-binding" style = "background-color: #5cb85c">New upload</span> |![](Images/upload-btn.png)
+|2. Follow the instructions on how to upload as described on Zenodo. Some fields are required such as upload and license type, and basic information. It is also possible to add other information such as contributors, alternative identifiers, references, funding, journal, etc. ![](Images/Upload_information.png)|![](Images/Upload_Page.png)|
+|3. The curator will receive your upload request, but he or she cannot access your file either. They will contact you in case of doubt.|
+You can see all your uploads by clicking on _Uploads_ On the top banner| ![](Images/your_upload.png)
+
+
+## References
+
+- [Make Your Code Citable Using GitHub and Zenodo: A How-to Guide](https://genr.eu/wp/cite/)
+
+
