@@ -26,15 +26,15 @@ output:
 
 _These are instructions for the test environment_ 
 
-[Zenodo](https://about.zenodo.org/) is an open-source repository for scientific outputs. Zenodo enables linking research outputs to datasets and funding information. All uploads get a Digital Object Identifier (DOI), and all data are stored at the European Organization for Nuclear Research  [(CERN)](https://www.home.cern/).
+[Zenodo](https://about.zenodo.org/) is an open-source repository used to archive and share any research data. A Digital Object Identifier (DOI) is assigned for any file submitted, and all data are stored at the European Organization for Nuclear Research  [(CERN)](https://www.home.cern/).
 
-This brief how-to will describe how to search for and upload data to Zenodo via its test environment. This environment is an exact copy of Zenodo, but here you will have the ability to test the tool before uploading data to the actual Papillons community (coming soon).
+This document intends to describe and provide what is needed for searching and uploading data in Zenodo's test environment before uploading data to the actual Papillons community (coming soon). 
 
 ## Sign up/ Log in to Zenodo
 
 |  |  |  
 | :------- | :----------- |
-|   1. Click on _Sign Up_ on the top-left corner of the site. If you already have an account you can skip to [the next step](#jump).     |![](Images/sign_up.png) 
+|   1. Go to [sandbox.zenodo.org](https://sandbox.zenodo.org/) and click on _Sign Up_ on the top-left corner of the site. If you already have an account you can jump to [the next step](#jump).     |![](Images/sign_up.png) 
 |   2. You can sign up by creating an username and password, or using an [ORCID](https://orcid.org/) or [GitHub](https://github.com/) account.|![](Images/sign_up_method.png){width=500px}|
 |3. After signing up you must open your e-mail inbox and confirm your e-mail by clicking on a confirmation link.| ![](Images/mail_signup.png) ![](Images/email_confirm.png)|        
 
@@ -46,7 +46,7 @@ This brief how-to will describe how to search for and upload data to Zenodo via 
 
 | | |
 | :------- | :----------- |
-1. Go to [sandbox.zenodo.org](https://sandbox.zenodo.org/) and click on _Communities_ on the banner on the top of the page.| ![](Images/communities.png)|
+1.  Click on _Communities_ on the banner on the top of the page.| ![](Images/communities.png)|
 
 | | |
 | :------- | :----------- |
