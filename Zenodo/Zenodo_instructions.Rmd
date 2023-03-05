@@ -86,6 +86,8 @@ This brief how-to will describe how to search for and upload data to Zenodo via 
 
 ## Useful links
 
+- [About Zenodo](https://about.zenodo.org/)
+- [Link to an OAI-PMH feed, which can be used by other digital repositories to harvest this community.](https://sandbox.zenodo.org/oai2d?verb=ListRecords&set=user-papillons-test&metadataPrefix=oai_dc)
 - [Make Your Code Citable Using GitHub and Zenodo: A How-to Guide](https://genr.eu/wp/cite/)
 
 
