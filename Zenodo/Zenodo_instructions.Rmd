@@ -2,21 +2,23 @@
 title: "Zenodo how-to instructions"
 subtitle: ''
 output:
-  word_document:
-    toc: yes
-  md_document:
-    variant: markdown_github
-  pdf_document:
-    toc: yes
   html_document:
+    includes:
+      after_body: footer.html
     pandoc_args: ["--output=index.html"]
     toc: yes
     toc_float: 
       collapsed: FALSE
     df_print: paged
+  md_document:
+    variant: markdown_github
+  pdf_document:
+    toc: yes
   html_notebook:
     toc: yes
     highlight: pygments
+  word_document:
+    toc: yes
 ---
 
 
@@ -90,4 +92,5 @@ This brief how-to will describe how to search for and upload data to Zenodo via 
 - [Link to an OAI-PMH feed, which can be used by other digital repositories to harvest this community.](https://sandbox.zenodo.org/oai2d?verb=ListRecords&set=user-papillons-test&metadataPrefix=oai_dc)
 - [Make Your Code Citable Using GitHub and Zenodo: A How-to Guide](https://genr.eu/wp/cite/)
 
+<br>
 
