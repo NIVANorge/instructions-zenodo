@@ -24,17 +24,16 @@ output:
 
 ## About
 
-_These are instructions for the test environment_ 
 
 [Zenodo](https://about.zenodo.org/) is an open-source repository used to archive and share any research data. A Digital Object Identifier (DOI) is assigned for any file submitted, and all data are stored at the European Organization for Nuclear Research  [(CERN)](https://www.home.cern/).
 
-This document intends to describe and provide what is needed for searching and uploading data in Zenodo's test environment before uploading data to the actual Papillons community (coming soon). 
+This document intends to describe and provide what is needed for searching and uploading data Papillons community in Zenodo. 
 
 ## Sign up/ Log in to Zenodo
 
 |  |  |  
 | :------- | :----------- |
-|   1. Go to [sandbox.zenodo.org](https://sandbox.zenodo.org/) and click on _Sign Up_ on the top-left corner of the site. If you already have an account you can jump to [the next step](#jump).     |![](Images/sign_up.png) 
+|   1. Go to [zenodo.org](https://zenodo.org/) and click on _Sign Up_ on the top-left corner of the site. If you already have an account you can jump to [the next step](#jump).     |![](Images/sign_up.png) 
 |   2. You can sign up by creating an username and password, or using an [ORCID](https://orcid.org/) or [GitHub](https://github.com/) account.|![](Images/sign_up_method.png){width=500px}|
 |3. After signing up you must open your e-mail inbox and confirm your e-mail by clicking on a confirmation link.| ![](Images/mail_signup.png) ![](Images/email_confirm.png)|        
 
@@ -58,7 +57,7 @@ This document intends to describe and provide what is needed for searching and u
 
 | | |
 | :------- | :----------- |
-4. All uploaded files have tags identifying date uploaded, type of file, and type of access.|![](Images/files.bmp){width=500px}
+4. All uploaded files have tags identifying date uploaded, type of file, and type of access.|![](Images/files.bmp){width=500px}|
 
 **Description of tags:**
 
@@ -75,14 +74,12 @@ This document intends to describe and provide what is needed for searching and u
 ## Uploading files
 
 
-
 | | |
 | :------- | :----------- |
 |1. Click on <span class="label label-default ng-binding" style = "background-color: #5cb85c">New upload</span> |![](Images/upload-btn.png)
 2. Upload the file by either drag and drop or by clicking on <span class="label label-default ng-binding" style = "background-color: #357ebd">Choose files</span>, followed by <span class="label label-default ng-binding" style = "background-color: #5cb85c">Start upload</span>|![](Images/Upload_tagged.png)|
 3. Some fields are required such as license and upload type, and basic information. It is also possible to upload additional information such as contributors, alternative identifiers, references, funding, journal, etc.| ![](Images/Upload_information.png)|
-|4. When you click on <span class="label label-default ng-binding" style = "background-color: #357ebd">Publish</span>, you will receive a warning recommending to use Zenodo Sandbox if you wish to just test upload, even when you are already in the sandbox. Just click on <span class="label label-default ng-binding" style = "background-color: #357ebd">I understand</span>. A DOI number will be automatically created.| ![](Images/warning.png)|
-|5. Your upload will be searchable on Zenodo, but not yet connected to the Papillons community (Test Papillons in this case). A curator will receive your request to include your file in the community repository and approve it if the community requirements are fulfilled (if any). The rules for <span class="label label-default ng-binding" style = "background-color: #f0ad4e">Embargoed Access</span>, <span class="label label-default ng-binding" style = "background-color: #d9534f">Restricted Access</span>, and <span class="label label-default ng-binding" style = "background-color: #d9534f">Closed Access</span> also apply for curators. That means that they can only access open access files. 
+|4. Your upload will be searchable on Zenodo, but not yet connected to the Papillons community. A curator will receive your request to include your file in the community repository and approve it if the community requirements are fulfilled (if any). The rules for <span class="label label-default ng-binding" style = "background-color: #f0ad4e">Embargoed Access</span>, <span class="label label-default ng-binding" style = "background-color: #d9534f">Restricted Access</span>, and <span class="label label-default ng-binding" style = "background-color: #d9534f">Closed Access</span> also apply for curators. That means that they can only access open access files. 
 5. You can find all your uploads (including drafts) by clicking on _Upload_ On the top banner.| ![](Images/your_upload.png)
 
 
