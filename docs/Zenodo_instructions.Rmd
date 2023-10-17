@@ -27,17 +27,17 @@ output:
 
 _The online version of this document can be found [here](https://nivanorge.github.io/Papillons/)_
 
-[Zenodo](https://about.zenodo.org/) is an open-source repository used to archive and share any research data. A Digital Object Identifier (DOI) is assigned for any file submitted, and all data are stored at the European Organization for Nuclear Research  [(CERN)](https://www.home.cern/).
+[Zenodo](https://about.zenodo.org/) is an open-source repository used to archive and share any research data. A Digital Object Identifier (DOI) is assigned to any file submitted, and all data are stored at the European Organization for Nuclear Research  [(CERN)](https://www.home.cern/).
 
-This document intends to describe and provide what is needed for searching and uploading data Papillons community in Zenodo. 
+This document intends to describe and provide what is needed for searching and uploading data on [Papillons community](https://zenodo.org/communities/papillons) in Zenodo. 
 
 ## Sign up/ Log in to Zenodo
 
 |  |  |  
 | :------- | :----------- |
-|   1. Go to [zenodo.org](https://zenodo.org/) and click on _Sign Up_ on the top-left corner of the site. If you already have an account you can jump to [the next step](#jump).     |![](Images/sign_up.png) 
+|   1. Go to [zenodo.org](https://zenodo.org/) and click on _Sign Up_ on the top-left corner of the site.You can jump to [the next step](#jump) if you already have an account.     |![](Images/sign_up.png) 
 |   2. You can sign up by creating an username and password, or using an [ORCID](https://orcid.org/) or [GitHub](https://github.com/) account.|![](Images/sign_up_method.png){width=500px}|
-|3. After signing up you must open your e-mail inbox and confirm your e-mail by clicking on a confirmation link.| ![](Images/mail_signup.png) ![](Images/email_confirm.png)|        
+|3. After signing up you must open your e-mail inbox and confirm your e-mail by clicking <span style = "background-color: #6aa3d5">Confirm my account</span>.| ![](Images/mail_signup.png) ![](Images/email_confirm.png)|        
 
 <br>
 <a name="jump"></a>
@@ -51,44 +51,49 @@ This document intends to describe and provide what is needed for searching and u
 
 | | |
 | :------- | :----------- |
-2. On the Communities search field search for _Papillons_ and press enter (note that you will not find the community by using the general search field).| ![](Images/search.png)|
+2. Search for _Papillons_ **on the _Communities_ search field** and press enter (note that you will not find the community by using the general search field).| ![](Images/search_community.png)|
 
 | | |
 | :------- | :----------- |
-3. You will find the _Test Papillons_ below. Click on _View_.| ![](Images/view_test.png){width=400px}|
+3. You will find the PAPILLONS community below. Click on the title.| ![](Images/search_community_result.png){width=500px}|
 
 | | |
 | :------- | :----------- |
-4. All uploaded files have tags identifying date uploaded, type of file, and type of access.|![](Images/files.bmp){width=500px}|
+4. All uploaded files have tags identifying date uploaded, type of file, and type of access.|![](Images/uploaded_data.png){width=500px}|
 
 **Description of tags:**
 
-- Uploaded date: <span class="label label-info ng-scope ng-binding" style="background-color:#6aa3d5">Month,DD,YYY(version)
+- Uploaded date: <span class="label label-info ng-scope ng-binding" style="background-color:#6aa3d5">Month,DD,YYY(version)</span>
 - Type of file: <span class="label label-default ng-binding" style = "background-color: #777">Dataset; Presentation; Poster, etc</span> 
 - Type of access:
-    - <span class="label label-default ng-binding" style = "background-color: #5cb85c">Open Access</span> 
-    - <span class="label label-default ng-binding" style = "background-color: #f0ad4e">Embargoed Access</span> - The file will be given open access from a date specified by the publisher (the date can be changed after upload).
-    - <span class="label label-default ng-binding" style = "background-color: #d9534f">Restricted Access</span> - Access can be requested. Conditions for access can be given by the publisher.
-    - <span class="label label-default ng-binding" style = "background-color: #d9534f">Closed Access</span> - Files are not publicly accessible.          
+    - <span class="label label-default ng-binding" style = "background-color: #5cb85c">Open</span> 
+    - <span class="label label-default ng-binding" style = "background-color: #f0ad4e">Embargoed</span> - The file will be given open access from a date specified by the publisher (the date can be changed after upload).
+    - <span class="label label-default ng-binding" style = "background-color: #d9534f">Restricted</span> - Access can be requested. Conditions for access can be given by the publisher.
+          
 
-
+<br><br/>
 
 ## Uploading files
 
 
 | | |
 | :------- | :----------- |
-|1. Click on <span class="label label-default ng-binding" style = "background-color: #5cb85c">New upload</span> |![](Images/upload-btn.png)
-2. Upload the file by either drag and drop or by clicking on <span class="label label-default ng-binding" style = "background-color: #357ebd">Choose files</span>, followed by <span class="label label-default ng-binding" style = "background-color: #5cb85c">Start upload</span>|![](Images/Upload_tagged.png)|
-3. Some fields are required such as license and upload type, and basic information. It is also possible to upload additional information such as contributors, alternative identifiers, references, funding, journal, etc.|![](Images/Upload_information.png)|
-4. For publication upload it is important to choose the publication type.| ![](Images/publicationType.png)|
-5. Your upload will be searchable on Zenodo, but not yet connected to the Papillons community. A curator (community owner) will receive your request to include your file in the community repository and approve it if the community requirements are fulfilled (if any). The rules for <span class="label label-default ng-binding" style = "background-color: #f0ad4e">Embargoed Access</span>, <span class="label label-default ng-binding" style = "background-color: #d9534f">Restricted Access</span>, and <span class="label label-default ng-binding" style = "background-color: #d9534f">Closed Access</span> also apply for curators. That means that they can only access open access files.|![](Images/uploadCurator.png)| 
-6. You can find all your uploads (including drafts) by clicking on _Upload_ On the top banner.| ![](Images/your_upload.png)|
+|- Click on <span class="label label-default ng-binding" style = "background-color: #5cb85c">New upload</span> |![](Images/upload_btn.png)|
+- Click on <span class="label label-default ng-binding" style = "background-color: #357ebd">Select a community</span> on the top the upload section.| ![](Images/upload_community.png)|
+- Search for PAPILLONS and click on _Select_.| ![](images/upload_select_community.png)
+- Upload your file(s) by either drag and drop or by clicking on <span class="label label-default ng-binding" style = "background-color: #357ebd">Upload files</span>.|![](Images/Upload_files_btn.png)|
+- Choose the visibility of your upload. If you choose <span class="label label-default ng-binding" style = "background-color: #5cb85c">Public</span>, your file will be open source. if you choose <span class="label label-default ng-binding" style = "background-color: #d9534f">Restricted</span>, the files will be only accessible by users specified in the permissions.| ![](Images/upload_visibility.png)|
+It is also possible to apply an embargo| ![](Images/upload_vis_embargo.png)|
+- Most fields on the _Basic Information_ section are required (marked with <span style = "color: red">*</span>).|![](Images/Upload_information.png)|
+- Once you are ready to submit, click on <span class="label label-info ng-scope ng-binding" style="background-color:#357ebd">Submit for review</span>. It is also possible to save a draft.| ![](images/upload_send_for_review.png)|
+- Once your upload is completed, it will be searchable on Zenodo, but not yet connected to the Papillons community. A curator (community owner) will receive your request to include your file in the community repository and approve it if the community requirements are fulfilled (if any).||
+- You can find all your uploads (including drafts) by clicking on _My dashboard_ on the top banner.|![](Images/your_uploads.png)|
 
 
 ## Useful links
 
 - [About Zenodo](https://about.zenodo.org/)
+- [Frequently Asked Questions](https://help.zenodo.org/faq/)
 - [Link to an OAI-PMH feed, which can be used by other digital repositories to harvest this community.](https://sandbox.zenodo.org/oai2d?verb=ListRecords&set=user-papillons-test&metadataPrefix=oai_dc)
 - [Make Your Code Citable Using GitHub and Zenodo: A How-to Guide](https://genr.eu/wp/cite/)
 
