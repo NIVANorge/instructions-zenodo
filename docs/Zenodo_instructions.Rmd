@@ -25,7 +25,7 @@ output:
 ## About
 
 
-_The online version of this document can be found [here](https://nivanorge.github.io/Papillons/)_
+_The online version of this document can be found [here](https://nivanorge.github.io/instructions-zenodo/)_
 
 [Zenodo](https://about.zenodo.org/) is an open-source repository used to archive and share any research data. A Digital Object Identifier (DOI) is assigned to any file submitted, and all data are stored at the European Organization for Nuclear Research  [(CERN)](https://www.home.cern/).
 
@@ -47,13 +47,14 @@ _The online version of this document can be found [here](https://nivanorge.githu
 
 
 ### Create a community
+Jump to [_Find a community_](#jumptocommunity)
 
 Communities are shared areas on Zenodo where you can curate and manage your project research outputs. 
 
 Overall, communities in Zenodo can make your data more FAIR by promoting standardized metadata, curated collections, community-specific tagging, open data sharing policies, interoperability standards, and data quality practices. 
 
 
-Jump to [_Find a community_](#jumptocommunity)
+
 
 | | |
 | :------- | :----------- |
@@ -86,16 +87,6 @@ Jump to [_Find a community_](#jumptocommunity)
 | :------- | :----------- |
 4. All uploaded files have tags identifying date uploaded, type of file, and type of access.|![](Images/uploaded_data.png){width=500px}|
 
-**Description of tags:**
-
-- Uploaded date: <span class="label label-info ng-scope ng-binding" style="background-color:#6aa3d5">Month,DD,YYY(version)</span>
-- Type of file: <span class="label label-default ng-binding" style = "background-color: #777">Dataset; Presentation; Poster, etc</span> 
-- Type of access:
-    - <span class="label label-default ng-binding" style = "background-color: #5cb85c">Open</span> 
-    - <span class="label label-default ng-binding" style = "background-color: #f0ad4e">Embargoed</span> - The file will be given open access from a date specified by the publisher (the date can be changed after upload).
-    - <span class="label label-default ng-binding" style = "background-color: #d9534f">Restricted</span> - Access can be requested. Conditions for access can be given by the publisher.
-          
-
 <br><br/>
 
 ## Uploading files
@@ -114,6 +105,25 @@ It is also possible to apply an embargo| ![](Images/upload_vis_embargo.png)|
 - Once your upload is completed, it will be searchable on Zenodo, but not yet connected to the Papillons community. A curator (community owner) will receive your request to include your file in the community repository and approve it if the community requirements are fulfilled (if any).||
 - You can find all your uploads (including drafts) by clicking on _My dashboard_ on the top banner.|![](Images/your_uploads.png)|
 
+
+## Description of tags
+
+ **Uploaded date:**
+    - <span class="label label-info ng-scope ng-binding" style="background-color:#6aa3d5">Month,DD,YYY(version)</span>
+    
+    
+ **File types:**  <span class="label label-default ng-binding" style = "background-color: #777">Dataset; Presentation; Poster, etc</span> 
+ 
+These tags describe the type of resource uploaded to Zenodo, such as datasets, publications, software, presentations, etc. They help users filter content based on the type of resource they are looking for.
+    
+    
+**Access types:**
+
+  - <span class="label label-default ng-binding" style = "background-color: #5cb85c">Open</span> - Content with open access is freely available to anyone.
+  - <span class="label label-default ng-binding" style = "background-color: #f0ad4e">Embargoed</span> - The file will be given open access from a date specified by the publisher (the date can be changed after upload).
+  - <span class="label label-default ng-binding" style = "background-color: #d9534f">Restricted</span> - Access can be requested. Conditions for access can be given by the publisher.
+    
+<br>
 
 ## Useful links
 
