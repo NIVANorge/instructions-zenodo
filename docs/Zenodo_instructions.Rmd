@@ -24,9 +24,6 @@ output:
 
 ## About
 
-
-_The online version of this document can be found [here](https://nivanorge.github.io/instructions-zenodo/)_
-
 [Zenodo](https://about.zenodo.org/) is an open-source repository used to archive and share any research data. A Digital Object Identifier (DOI) is assigned to any file submitted, and all data are stored at the European Organization for Nuclear Research  [(CERN)](https://www.home.cern/).
 
 
