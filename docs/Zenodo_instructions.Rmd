@@ -112,7 +112,7 @@ It is also possible to apply an embargo| ![](Images/upload_vis_embargo.png)|
  **File types:**  <span class="label label-default ng-binding" style = "background-color: #777">Dataset; Presentation; Poster, etc</span> 
  
 These tags describe the type of resource uploaded to Zenodo, such as datasets, publications, software, presentations, etc. They help users filter content based on the type of resource they are looking for.
-    
+
     
 **Access types:**
 
@@ -121,6 +121,18 @@ These tags describe the type of resource uploaded to Zenodo, such as datasets, p
   - <span class="label label-default ng-binding" style = "background-color: #d9534f">Restricted</span> - Access can be requested. Conditions for access can be given by the publisher.
     
 <br>
+
+## Uploading datasets
+
+- Make sure to add a description about the dataset (raw file, quantitative/qualitative data, link to article, etc).
+
+- Tag your data with file type  <span class="label label-default ng-binding" style = "background-color: #777">Dataset</span> . This will make your file easier to find.
+
+- It is possible to upload your dataset together with other materials, but it is preferable to upload it on its own. This is to ensure your data are findible when searching for datasets. In this case you will want to link it to your publication: 
+    -	go to the publication, click on Edit, and fill out the field Related works. 
+    
+    ![](Images/Link_datasets.png)
+
 
 ## Useful links
 
