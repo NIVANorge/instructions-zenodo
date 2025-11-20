@@ -74,11 +74,11 @@ Overall, communities in Zenodo can make your data more FAIR by promoting standar
 
 | | |
 | :------- | :----------- |
-2. Search for _Papillons_ **on the _Communities_ search field** and press enter (note that you will not find the community by using the general search field).| ![](Images/search_community.png)|
+2. Search for the community you are looking for **on the _Communities_ search field** and press enter (note that you will not find the community by using the general search field).| ![](Images/search_community.png)|
 
 | | |
 | :------- | :----------- |
-3. You will find the PAPILLONS community below. Click on the title.| ![](Images/search_community_result.png){width=500px}|
+3. Click on the community's title.| ![](Images/search_community_result.png){width=500px}|
 
 | | |
 | :------- | :----------- |
@@ -93,13 +93,14 @@ Overall, communities in Zenodo can make your data more FAIR by promoting standar
 | :------- | :----------- |
 |- Click on <span class="label label-default ng-binding" style = "background-color: #5cb85c">New upload</span> |![](Images/upload_btn.png)|
 - Click on <span class="label label-default ng-binding" style = "background-color: #357ebd">Select a community</span> on the top the upload section.| ![](Images/upload_community.png)|
-- Search for PAPILLONS and click on _Select_.| ![](images/upload_select_community.png)
+- Search for the community and click on _Select_.| ![](images/upload_select_community.png)
 - Upload your file(s) by either drag and drop or by clicking on <span class="label label-default ng-binding" style = "background-color: #357ebd">Upload files</span>.|![](Images/Upload_files_btn.png)|
 - Choose the visibility of your upload. If you choose <span class="label label-default ng-binding" style = "background-color: #5cb85c">Public</span>, your file will be open source. if you choose <span class="label label-default ng-binding" style = "background-color: #d9534f">Restricted</span>, the files will be only accessible by users specified in the permissions.| ![](Images/upload_visibility.png)|
 It is also possible to apply an embargo| ![](Images/upload_vis_embargo.png)|
 - Most fields on the _Basic Information_ section are required (marked with <span style = "color: red">*</span>).|![](Images/Upload_information.png)|
 - Once you are ready to submit, click on <span class="label label-info ng-scope ng-binding" style="background-color:#357ebd">Submit for review</span>. It is also possible to save a draft.| ![](images/upload_send_for_review.png)|
 - Once your upload is completed, it will be searchable on Zenodo, but not yet connected to the Papillons community. A curator (community owner) will receive your request to include your file in the community repository and approve it if the community requirements are fulfilled (if any).||
+- It is also possible to add records to communities after upload. Click on the record, find _Communities_ on the sidebar on the right, and click on the wheel icon -> _Submit to Community_. |![](Images/upload_send_to_community.png)|
 - You can find all your uploads (including drafts) by clicking on _My dashboard_ on the top banner.|![](Images/your_uploads.png)|
 
 
@@ -140,7 +141,6 @@ These tags describe the type of resource uploaded to Zenodo, such as datasets, p
 - [Zenodo documentation](https://help.zenodo.org/docs/)
 - [About communities](https://help.zenodo.org/docs/communities/about-communities/)
 - [Frequently Asked Questions](https://help.zenodo.org/faq/)
-- [Link to an OAI-PMH feed, which can be used by other digital repositories to harvest this community.](https://sandbox.zenodo.org/oai2d?verb=ListRecords&set=user-papillons-test&metadataPrefix=oai_dc)
 
 <br>
 
